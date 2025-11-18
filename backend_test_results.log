@@ -1,0 +1,82 @@
+🚀 Starting Smart Study Planner API Tests
+==================================================
+
+🔍 Testing User Registration...
+✅ Passed - Status: 200
+   Registered user: testuser_171411
+
+🔍 Testing Pre-register for login test...
+✅ Passed - Status: 200
+
+🔍 Testing User Login...
+✅ Passed - Status: 200
+
+🔍 Testing Create Subject...
+✅ Passed - Status: 200
+
+🔍 Testing Get Subjects...
+✅ Passed - Status: 200
+
+🔍 Testing Update Subject...
+✅ Passed - Status: 200
+
+🔍 Testing Create Study Session...
+✅ Passed - Status: 200
+
+🔍 Testing Get Study Sessions...
+✅ Passed - Status: 200
+
+🔍 Testing Complete Study Session...
+✅ Passed - Status: 200
+
+🔍 Testing Create Task...
+✅ Passed - Status: 200
+
+🔍 Testing Get Tasks...
+✅ Passed - Status: 200
+
+🔍 Testing Complete Task...
+✅ Passed - Status: 200
+
+🔍 Testing Create Goal...
+✅ Passed - Status: 200
+
+🔍 Testing Get Goals...
+✅ Passed - Status: 200
+
+🔍 Testing Dashboard Analytics...
+✅ Passed - Status: 200
+
+🔍 Testing Progress Analytics...
+✅ Passed - Status: 200
+
+🔍 Testing AI Schedule Generation...
+❌ Failed - Expected 200, got 500
+   Response: {'detail': 'Failed to generate schedule: Failed to generate chat completion: litellm.APIError: APIError: OpenAIException - Error code: 502'}
+
+🧹 Cleaning up test resources...
+
+🔍 Testing Delete Goal 0d4adcb8-4afc-4578-9047-521a7649714d...
+✅ Passed - Status: 200
+
+🔍 Testing Delete Task 1d089105-0da6-464b-9797-2caa9887a442...
+✅ Passed - Status: 200
+
+🔍 Testing Delete Session a9e0f841-c3f2-498f-b893-84a6c16ba50e...
+✅ Passed - Status: 200
+
+🔍 Testing Delete Subject 04281620-83af-4457-b50c-61a7b3c4393c...
+✅ Passed - Status: 200
+
+==================================================
+📊 TEST RESULTS SUMMARY
+==================================================
+Subjects CRUD: ✅ PASSED
+Study Sessions CRUD: ✅ PASSED
+Tasks CRUD: ✅ PASSED
+Goals CRUD: ✅ PASSED
+Analytics Endpoints: ✅ PASSED
+AI Schedule Generation: ❌ FAILED
+
+Overall: 20/21 tests passed
+Success Rate: 95.2%
